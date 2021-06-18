@@ -1,0 +1,40 @@
+{
+  "name": "awesome-community-blog",
+  "version": "1.0.0",
+  "description": "awesome-blog api using express framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js",
+    "test": "hello_world",
+    "babel-version": "babel --version",
+    "babel-help": "babel --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/HieuLe19/awesome-community-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "community"
+  ],
+  "author": "HieuLe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/HieuLe19/awesome-community-blog/issues"
+  },
+  "homepage": "https://gitlab.com/HieuLe19/awesome-community-blog#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^6.0.0-bridge.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
